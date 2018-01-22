@@ -4,6 +4,7 @@ from tigereye.models import db
 from tigereye.models.cinema import Cinema
 from tigereye.models.hall import Hall
 from tigereye.models.seat import Seat
+from tigereye.models.movie import Movie
 
 app = create_app()
 manager = Manager(app)

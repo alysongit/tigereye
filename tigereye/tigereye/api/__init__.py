@@ -1,7 +1,9 @@
 import functools
 
-from flask import request, Response, jsonify
+from flask import request, Response, jsonify, make_response
 from flask_classy import FlaskView
+
+from tigereye.helper.code import Code
 
 
 class ApiView(FlaskView):
@@ -41,9 +43,27 @@ class ApiView(FlaskView):
                     return response
 
             response = view(**request.view_args)
+
+            #是否是response对象，如果不是,则进入我们自己的对象
             if not isinstance(response, Response):
-                # response = make_response(response)
-                response = jsonify(response)
+
+                response_type =type(response)
+                # 如果是元祖，并且长度大于1
+                if response_type is tuple and len(response) >1:
+                    rc,_data = response
+                    response=jsonify(
+                        rc=rc.value,
+                        msg=rc.name,
+                        data = _data,
+                    )
+                else:
+                    response = jsonify(
+                        rc = Code.succ.value,
+                        msg =Code.succ.name,
+                        data =response,
+                    )
+                response = make_response(response)
+
             after_view_name = "after_" + name
             if hasattr(i, after_view_name):
                 after_view = getattr(i, after_view_name)

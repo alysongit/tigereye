@@ -3,6 +3,12 @@ from flask import  json as _json
 db = SQLAlchemy()
 
 class Model(object):
+
+
+    @classmethod
+    def get(cls,primary_key):
+        return cls.query.get(primary_key)
+
     def put(self):
         db.session.add(self)
 

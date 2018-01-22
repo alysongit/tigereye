@@ -1,28 +1,29 @@
 from flask import Flask
-from tigereye.api.misc import MiscView
-from tigereye.api.cinema import CinemaView
+
+from tigereye.api import ApiView
+
 from tigereye.models import db,JsonEncode
 
 def create_app():
-    """创建一个flask app对象并返回"""
+    "创建一个flask app对象"
     app = Flask(__name__)
-    # app.debug = True
-    #读取配置文件
-    app.config.from_object('tigereye.configs.default.DefaultConfig')
-    app.json_encoder = JsonEncode
 
-    #注册view到app中
-    MiscView.register(app)
-    CinemaView.register(app)
-    #初始化sqlalchemy配置
+    app.config.from_object('tigereye.configs.default.DefaultConfig')
+
+    app.json_encoder = JsonEncode
+    # MovieView.register(app)
+    # MiscView.register(app)
+    # CinemaView.register(app)
+    configure_views(app)
     db.init_app(app)
     return app
 
-# app = create_app()
-#
-# @app.route('/hello/')
-# def hello():
-#     return "hello tigereye"
-#
-# if __name__=='__main__':
-#     app.run()
+
+def configure_views(app):
+    from tigereye.api.misc import MiscView
+    from tigereye.api.cinema import CinemaView
+    from tigereye.api.movie import MovieView
+
+    for view in locals().values():
+        if type(view) == type and issubclass(view,ApiView):
+            view.register(app)
