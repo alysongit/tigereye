@@ -1,7 +1,7 @@
 from flask import Flask
 from tigereye.api.misc import MiscView
 from tigereye.api.cinema import CinemaView
-from tigereye.models import db
+from tigereye.models import db,JsonEncode
 
 def create_app():
     """创建一个flask app对象并返回"""
@@ -9,6 +9,8 @@ def create_app():
     # app.debug = True
     #读取配置文件
     app.config.from_object('tigereye.configs.default.DefaultConfig')
+    app.json_encoder = JsonEncode
+
     #注册view到app中
     MiscView.register(app)
     CinemaView.register(app)

@@ -12,3 +12,5 @@ class Cinema(db.Model,Model):
     handle_free = db.Column(db.Integer,default=0,nullable=False)
     buy_limit = db.Column(db.Integer,default=0,nullable=False)
     status=db.Column(db.Integer,default=0,nullable=False,index=True)
+
+

@@ -9,6 +9,7 @@ app = create_app()
 manager = Manager(app)
 
 def _make_context():
+    from tigereye.models import Model
     locals().update(globals())
     return dict(**locals())
 
