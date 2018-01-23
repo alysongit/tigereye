@@ -3,3 +3,4 @@ Flask_classy
 Flask_sqlalchemy
 pymysql
 Flask_script
+faker

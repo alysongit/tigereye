@@ -1,7 +1,6 @@
 from tigereye.models import db,Model
 
 class Movie(db.Model,Model):
-
     """电影信息表"""
 
     """电影ID，主键"""

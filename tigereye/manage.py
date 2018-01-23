@@ -5,12 +5,16 @@ from tigereye.models.cinema import Cinema
 from tigereye.models.hall import Hall
 from tigereye.models.seat import Seat
 from tigereye.models.movie import Movie
+from tigereye.models.play import Play
+
 
 app = create_app()
 manager = Manager(app)
 
 def _make_context():
     from tigereye.models import Model
+    from tigereye.helper.code import Code
+    from tigereye.extensions.validator import Validator
     locals().update(globals())
     return dict(**locals())
 
@@ -23,6 +27,12 @@ manager.add_command('shell',Shell(make_context=_make_context))
 def dropdb():
     db.drop_all()
 
+
+@manager.command
+def testdata():
+    Cinema.create_test_data()
+
+
 @manager.command
 def createdb():
     db.create_all()
@@ -30,8 +40,10 @@ def createdb():
 
 @manager.command
 def init():
-    createdb()
     dropdb()
+    createdb()
+    testdata()
+
 
 
 if __name__ == '__main__':

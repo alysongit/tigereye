@@ -23,6 +23,7 @@ def configure_views(app):
     from tigereye.api.misc import MiscView
     from tigereye.api.cinema import CinemaView
     from tigereye.api.movie import MovieView
+    from tigereye.api.play import PlayView
 
     for view in locals().values():
         if type(view) == type and issubclass(view,ApiView):

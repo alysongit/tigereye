@@ -44,9 +44,9 @@ class ApiView(FlaskView):
 
             response = view(**request.view_args)
 
-            #是否是response对象，如果不是,则进入我们自己的对象
+            #是否是response对象，如果不是,则进入我们自己的处理流程
             if not isinstance(response, Response):
-
+                #读取response类型
                 response_type =type(response)
                 # 如果是元祖，并且长度大于1
                 if response_type is tuple and len(response) >1:
