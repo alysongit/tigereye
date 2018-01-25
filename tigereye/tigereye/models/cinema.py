@@ -1,6 +1,6 @@
 
 from tigereye.models import  db,Model
-from tigereye.models.seat import PlaySeat
+from tigereye.models.seat import PlaySeat, SeatType, SeatStatus
 
 
 class Cinema(db.Model,Model):
@@ -64,8 +64,8 @@ class Cinema(db.Model,Model):
                 seat.y =math.ceil(x/5)
                 seat.row ='%s排' % seat.x
                 seat.colum ='%s列'% seat.y
-                seat.seat_type =1
-                seat.status =1
+                seat.seat_type = SeatType.single.value
+                seat.status = SeatStatus.ok.value
                 seat.put()
                 hall.seats.append(seat)
             Seat.commit()
@@ -81,7 +81,7 @@ class Cinema(db.Model,Model):
                 play.price_type=1
                 play.price=7000
                 play.market_price=5000
-                play.lower_price=3000
+                play.lowest_price=3000
                 play.status=1
                 play.put()
                 play.hall =hall

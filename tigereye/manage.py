@@ -6,6 +6,9 @@ from tigereye.models.hall import Hall
 from tigereye.models.seat import Seat
 from tigereye.models.movie import Movie
 from tigereye.models.play import Play
+from tigereye.models.order import Order
+from tigereye.configs.production import ProductionConfig
+
 
 
 app = create_app()

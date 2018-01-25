@@ -11,8 +11,6 @@ class CinemaView(ApiView):
     def all(self):
         return  Cinema.query.all()
 
-
-
     def halls(self):
         cid = request.args['cid']
         cinema = Cinema.get(cid)

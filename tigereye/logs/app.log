@@ -1,0 +1,269 @@
+2018-01-25 15:52:46,910 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 15:53:15,465 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 15:57:05,282 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 15:57:05,480 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 15:57:05,547 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 15:57:05,563 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 15:58:23,142 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 16:03:32,357 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 16:23:14,030 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 16:46:25,646 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 16:48:03,808 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 16:48:34,641 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 16:49:59,254 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 16:49:59,300 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 16:49:59,544 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 16:49:59,608 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 16:58:50,192 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 17:00:53,000 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 17:06:37,730 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 17:08:32,452 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 17:10:16,592 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 17:10:20,112 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 17:10:20,221 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 17:10:20,319 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 17:10:20,358 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 17:13:23,735 ERROR: Exception on /misc/error/ [GET]
+Traceback (most recent call last):
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/alyson/PycharmProjects/tigereye/tigereye/api/__init__.py", line 45, in proxy
+    response = view(**request.view_args)
+  File "/home/alyson/PycharmProjects/tigereye/tigereye/api/misc.py", line 10, in error
+    1/0
+ZeroDivisionError: division by zero
+2018-01-25 17:15:08,165 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 17:17:34,292 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 17:17:39,175 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 17:17:39,057 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 17:17:39,265 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 17:17:39,319 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 17:28:09,354 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 17:28:19,485 ERROR: Exception on /misc/error/ [GET]
+Traceback (most recent call last):
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/alyson/PycharmProjects/tigereye/tigereye/api/__init__.py", line 45, in proxy
+    response = view(**request.view_args)
+  File "/home/alyson/PycharmProjects/tigereye/tigereye/api/misc.py", line 10, in error
+    1/0
+ZeroDivisionError: division by zero
+2018-01-25 17:28:50,877 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 17:28:50,894 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 17:28:50,922 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 17:33:06,685 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 17:37:38,715 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 17:54:41,654 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 17:55:06,656 ERROR: Exception on /misc/error/ [GET]
+Traceback (most recent call last):
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/alyson/PycharmProjects/tigereye/tigereye/api/__init__.py", line 45, in proxy
+    response = view(**request.view_args)
+  File "/home/alyson/PycharmProjects/tigereye/tigereye/api/misc.py", line 10, in error
+    1/0
+ZeroDivisionError: division by zero
+2018-01-25 17:55:38,223 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 17:55:38,223 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 17:56:34,340 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 17:56:42,507 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 17:56:42,508 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 17:56:42,518 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 17:56:42,521 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 18:01:55,899 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 18:02:28,060 ERROR: Exception on /misc/error/ [GET]
+Traceback (most recent call last):
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/alyson/PycharmProjects/tigereye/tigereye/api/__init__.py", line 45, in proxy
+    response = view(**request.view_args)
+  File "/home/alyson/PycharmProjects/tigereye/tigereye/api/misc.py", line 10, in error
+    1/0
+ZeroDivisionError: division by zero
+2018-01-25 18:04:54,233 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 18:05:08,187 ERROR: Exception on /misc/error/ [GET]
+Traceback (most recent call last):
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/alyson/PycharmProjects/tigereye/tigereye/api/__init__.py", line 45, in proxy
+    response = view(**request.view_args)
+  File "/home/alyson/PycharmProjects/tigereye/tigereye/api/misc.py", line 10, in error
+    1/0
+ZeroDivisionError: division by zero
+2018-01-25 18:05:40,178 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 18:07:17,723 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 18:07:30,308 ERROR: Exception on /misc/error/ [GET]
+Traceback (most recent call last):
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/alyson/PycharmProjects/tigereye/tigereye/api/__init__.py", line 45, in proxy
+    response = view(**request.view_args)
+  File "/home/alyson/PycharmProjects/tigereye/tigereye/api/misc.py", line 10, in error
+    1/0
+ZeroDivisionError: division by zero
+2018-01-25 18:08:01,025 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 18:08:20,408 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 18:08:39,120 ERROR: Exception on /misc/error/ [GET]
+Traceback (most recent call last):
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/alyson/PycharmProjects/tigereye/tigereye/api/__init__.py", line 45, in proxy
+    response = view(**request.view_args)
+  File "/home/alyson/PycharmProjects/tigereye/tigereye/api/misc.py", line 10, in error
+    1/0
+ZeroDivisionError: division by zero
+2018-01-25 18:09:11,426 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 18:11:03,880 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 18:11:10,852 ERROR: Exception on /misc/error/ [GET]
+Traceback (most recent call last):
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/alyson/PycharmProjects/tigereye/tigereye/api/__init__.py", line 45, in proxy
+    response = view(**request.view_args)
+  File "/home/alyson/PycharmProjects/tigereye/tigereye/api/misc.py", line 10, in error
+    1/0
+ZeroDivisionError: division by zero
+2018-01-25 18:11:43,410 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 18:16:51,625 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 18:17:02,934 ERROR: Exception on /misc/error/ [GET]
+Traceback (most recent call last):
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/alyson/PycharmProjects/tigereye/tigereye/api/__init__.py", line 45, in proxy
+    response = view(**request.view_args)
+  File "/home/alyson/PycharmProjects/tigereye/tigereye/api/misc.py", line 10, in error
+    1/0
+ZeroDivisionError: division by zero
+2018-01-25 18:17:34,827 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 18:22:26,119 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 18:22:32,349 ERROR: Exception on /misc/error/ [GET]
+Traceback (most recent call last):
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/alyson/PycharmProjects/tigereye/tigereye/api/__init__.py", line 45, in proxy
+    response = view(**request.view_args)
+  File "/home/alyson/PycharmProjects/tigereye/tigereye/api/misc.py", line 10, in error
+    1/0
+ZeroDivisionError: division by zero
+2018-01-25 18:23:04,706 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 18:23:59,946 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..
+2018-01-25 18:24:09,794 ERROR: Exception on /misc/error/ [GET]
+Traceback (most recent call last):
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/alyson/PycharmProjects/tigereye/env/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/alyson/PycharmProjects/tigereye/tigereye/api/__init__.py", line 45, in proxy
+    response = view(**request.view_args)
+  File "/home/alyson/PycharmProjects/tigereye/tigereye/api/misc.py", line 10, in error
+    1/0
+ZeroDivisionError: division by zero
+2018-01-25 18:24:41,780 INFO: app created. BASE_DIR=/home/alyson/PycharmProjects/tigereye/tigereye/configs/../..

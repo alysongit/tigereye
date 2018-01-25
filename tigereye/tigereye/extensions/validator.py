@@ -21,8 +21,8 @@ class Validator():
             except Exception:
                 #如果发生异常，说明在转换过程中出错，也就是说参数不符合规则或者参数不符合规则
                 response = jsonify(
-                    rc =Code.require_parameter_missing.value,
-                    msg =Code.require_parameter_missing.name,
+                    rc =Code.required_parameter_missing.value,
+                    msg =Code.required_parameter_missing.name,
                     data={
                         'required_param':k,
                         'your_passed':request.values.get(k),
@@ -37,3 +37,27 @@ class Validator():
         #返回装饰器函数
         return decorated_function
 
+class ValidationError(Exception):
+    def __init__(self,message,values):
+        super(ValidationError,self).__init__(message)
+        self.values = values
+
+
+def multi_int(values, sperator=','):
+    return [int(i) for i in values.split(sperator)]
+
+
+def complex_int(values,sperator='-'):
+    "验证多个数字,类似1-2-3, 并返回一个元祖"
+    digits = values.split(sperator)
+    result = []
+    for digit in digits:
+        if not digit.isdigit():
+            raise ValidationError('complex int error : %s' % values , values)
+        result.append(int(digit))
+    return tuple(result)
+
+
+def multi_complex_int(values, sperator=','):
+    "验证多组数字, 类似1-2-3,4-5-6 最后返回一个列表包含N个元祖"
+    return [complex_int(i) for i in values.split(sperator)]

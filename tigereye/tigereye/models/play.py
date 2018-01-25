@@ -21,7 +21,7 @@ class Play(db.Model,Model):
     """销售价格"""
     market_price=db.Column(db.Integer)
     """最低价格"""
-    lower_price=db.Column(db.Integer)
+    lowest_price=db.Column(db.Integer)
     """创建时间"""
     created_time =db.Column(db.DateTime)
     """最后更新时间"""

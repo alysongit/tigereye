@@ -41,7 +41,7 @@ class Model(object):
         return _d
 
 
-class JsonEncode(_json.JSONEncoder):
+class JsonEncoder(_json.JSONEncoder):
     """重载flask的JSONEncoder类"""
     def default(self,o):
         """重载default方法，以支持Model类对象的json序列化"""
